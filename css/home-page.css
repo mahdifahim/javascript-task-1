@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.menu-ask {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 35px;
+    
+   
+}
+.menu-ask button{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: #08526d;
+    color: #ec1c23 ;
+    border: none;
+}
+.information{
+    display: none;
+}
+.information .tab {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.information .tab tr th {
+    padding: 10px;
+    border: 2px solid #ddd;
+    font-size: 32px;
+    color: red;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+  
+}
+.information .tab tr td {
+    padding: 10px;
+    border: 2px solid #ddd;
+    font-size: 32px;
+    color: rgb(27, 34, 31);
+    margin: 5px;
+  
+}
+.add-info {
+text-align: center;
+display: none;
+margin-top: 35px;
+}
+.add-info .input{
+    text-align: center;
+    margin: 5px;
+    }
+.add-info input{
+    margin-right: 52px;
+}
+td,th{
+border: 1 solid yellow;
+}

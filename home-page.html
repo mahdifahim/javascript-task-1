@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>design num one</title>
+    <link rel="stylesheet" href="css/home-page.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+
+</head>
+<body style="background-color: rgb(149, 206, 163);">
+    
+<h1> تطبيق بيانات الموظفين</h1>
+<div  class="menu-ask">
+ 
+        
+            <button onclick="showtable1()"> بيانات الموظفين</button>
+   
+        
+            <button onclick="showtable2()"> إدخال موظف جديد</button>
+        
+ 
+    
+</div>
+    <div class="information" id="info" >
+        <table id="display" class="tab" dir="rtl" style="border: 1 solid red;">
+            <tr> 
+                <th>الإسم</th> 
+                <th>العمر</th>
+                <th>المحافظة</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class="add-info" id=add-info dir="rtl" >
+        <div class="input"> الاسم <input type="text"  id="name" placeholder="الاسم"> </div>
+        <div class="input">  العمر<input type="text"  id="age" placeholder="العمر"> </div>
+        <div class="input"> المحافظة<input type="text"  id="contry" placeholder="المحافظة"> </div>
+        <button onclick="addRow() "  id="butadd"> إدخال المعلومات</button>
+        
+    </div>
+
+
+<body>
+     <!-- end copyright-->
+     <script src="js/jquery-3.5.1.min (1).js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/home-page.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+ </body>
+ 
+ </html>
